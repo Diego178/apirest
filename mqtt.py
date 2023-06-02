@@ -30,7 +30,7 @@ def on_message(client, userdata, message):
         print("mensaje:", mensaje)
         print("fecha:", fecha)
         # Puedes realizar otras operaciones con los valores extraídos
-        url = 'http://127.0.0.1:8000/reportes/post/'
+        url = 'http://apirest:8000/reportes/post/'
         reporte = {
             'esp32': esp32,
             'mensaje': mensaje,

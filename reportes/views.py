@@ -22,8 +22,8 @@ def postReporte(request):
         mensaje = data['mensaje'],
         fecha = data['fecha'],
         hora = data['hora'],
-        latitud = data['latitud'],
-        longitud = data['longitud']
+        latitude = data['latitude'],
+        longitude = data['longitude']
     )
         
     serializer = ReporteSerializer(reporte, many = False)

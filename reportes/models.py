@@ -5,5 +5,5 @@ class Reporte(models.Model):
     mensaje=models.CharField(max_length=250)
     fecha=models.CharField(max_length=15)
     hora=models.CharField(max_length=10)
-    latitud=models.IntegerField()
-    longitud=models.IntegerField()
+    latitude=models.FloatField()
+    longitude=models.FloatField()
