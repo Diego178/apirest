@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Reporte(models.Model):
     esp32=models.CharField(max_length=10)
     mensaje=models.CharField(max_length=250)
